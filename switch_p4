@@ -1,17 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T03:51:18.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="udNZtbeWuMkGvL1tRx0j" version="16.2.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-20T08:38:06.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="i-slPXUCu8imdxfGR_-m" version="16.4.2" type="github" pages="8">
   <diagram id="__Tqg_PUiyjYCDxXRoGF" name="ingress_parse">
-    <mxGraphModel dx="2066" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="VQu1PBcNYXxfvyvSt0SS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="290" width="120" height="60" as="geometry" />
+        <object label="procedure" id="1">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQu1PBcNYXxfvyvSt0SS-1" target="-lrXqd4gBDm_OjwXkpdS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQu1PBcNYXxfvyvSt0SS-1" target="-lrXqd4gBDm_OjwXkpdS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;parse ingress_intrinsic_metadata_t&lt;/span&gt;&lt;/div&gt;" tags="header ingress_intrinsic_metadata_t { bit&lt;1&gt; resubmit_flag; // Flag distinguishing original packets // from resubmitted packets. @padding bit&lt;1&gt; _pad1; bit&lt;2&gt; packet_version; // Read-only Packet version. @padding bit&lt;3&gt; _pad2; PortId_t ingress_port; // Ingress physical port id. bit&lt;48&gt; ingress_mac_tstamp; // Ingress IEEE 1588 timestamp (in nsec) // taken at the ingress MAC. }" id="VQu1PBcNYXxfvyvSt0SS-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" parent="1" vertex="1">
+            <mxGeometry x="30" y="210" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-2" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDSZ3-czpgHmscYzq_lJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="-lrXqd4gBDm_OjwXkpdS-4" target="fDSZ3-czpgHmscYzq_lJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-4" value="&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;span style=&quot;&quot;&gt;parse_port_metadata&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDSZ3-czpgHmscYzq_lJ-1" value="" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDSZ3-czpgHmscYzq_lJ-3" value="此过程解析出如下字段：&lt;br&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span&gt;ig_md&lt;/span&gt;.&lt;span&gt;port&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span&gt;ig_md&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;timestamp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="20" width="210" height="120" as="geometry" />
+        </mxCell>
+        <object label="structs" id="-lrXqd4gBDm_OjwXkpdS-9">
+          <mxCell visible="0" parent="0" />
+        </object>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-lrXqd4gBDm_OjwXkpdS-9" source="-lrXqd4gBDm_OjwXkpdS-13" target="-lrXqd4gBDm_OjwXkpdS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-lrXqd4gBDm_OjwXkpdS-9" source="-lrXqd4gBDm_OjwXkpdS-13" target="-lrXqd4gBDm_OjwXkpdS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" edge="1" parent="-lrXqd4gBDm_OjwXkpdS-9" source="-lrXqd4gBDm_OjwXkpdS-13" target="-lrXqd4gBDm_OjwXkpdS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-13" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ingress_intrinsic_metadata_t&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="-lrXqd4gBDm_OjwXkpdS-9">
+          <mxGeometry x="30" y="210" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-14" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-lrXqd4gBDm_OjwXkpdS-9">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-15" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-lrXqd4gBDm_OjwXkpdS-9">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-16" value="" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-lrXqd4gBDm_OjwXkpdS-9">
+          <mxGeometry x="100" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="notes" id="-lrXqd4gBDm_OjwXkpdS-17">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-6" value="此过程解析出如下字段：&lt;br&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span&gt;ig_md&lt;/span&gt;.&lt;span&gt;port&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span&gt;ig_md&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;timestamp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="-lrXqd4gBDm_OjwXkpdS-17">
+          <mxGeometry x="55" y="20" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-lrXqd4gBDm_OjwXkpdS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" edge="1" parent="-lrXqd4gBDm_OjwXkpdS-17" source="VQu1PBcNYXxfvyvSt0SS-1" target="-lrXqd4gBDm_OjwXkpdS-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="YeLN8697Iy2opdg6wxPv" name="ingress_pipe">
-    <mxGraphModel dx="2066" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kCGGc_tejoUQQCGJwEOZ-0" />
         <mxCell id="kCGGc_tejoUQQCGJwEOZ-1" parent="kCGGc_tejoUQQCGJwEOZ-0" />
@@ -19,10 +77,53 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q4LQPaevHXj559MXTmxE" name="ingress_deparse">
-    <mxGraphModel dx="2066" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JaV01R1b45hdmFQPCCId-0" />
         <mxCell id="JaV01R1b45hdmFQPCCId-1" parent="JaV01R1b45hdmFQPCCId-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K_ktq85DTuz4Mk68UI8L" name="TM">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="pq6j5kmQLAypK1dLycDZ-0" />
+        <mxCell id="pq6j5kmQLAypK1dLycDZ-1" parent="pq6j5kmQLAypK1dLycDZ-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LsVglOwKoFuZcwjmn6eA" name="egress_parse">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="9pyLUtx-cC2yh2SQmMD5-0" />
+        <mxCell id="9pyLUtx-cC2yh2SQmMD5-1" parent="9pyLUtx-cC2yh2SQmMD5-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i0HqyXlA2NhnniY_IaD2" name="egress_pipe">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fq51nIuNgpWmzX0hVkoo-0" />
+        <mxCell id="fq51nIuNgpWmzX0hVkoo-1" parent="fq51nIuNgpWmzX0hVkoo-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2SGBXTfhP6QFu6LEob_h" name="egress_deparse">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="owerkoVeghvlYpnN0OZW-0" />
+        <mxCell id="owerkoVeghvlYpnN0OZW-1" parent="owerkoVeghvlYpnN0OZW-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XVFXY6uzXCKK3WkfOyzx" name="struct_and_type">
+    <mxGraphModel dx="2600" dy="2849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="u8v8vd_6a1yAeCxValKr-0" />
+        <mxCell id="u8v8vd_6a1yAeCxValKr-1" parent="u8v8vd_6a1yAeCxValKr-0" />
+        <mxCell id="u8v8vd_6a1yAeCxValKr-2" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 19px; line-height: normal; font-family: &amp;quot;andale mono&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;header ingress_intrinsic_metadata_t {&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;bit&amp;lt;1&amp;gt; resubmit_flag; &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;// Flag distinguishing original packets&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;// from resubmitted packets.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;@padding bit&amp;lt;1&amp;gt; _pad1;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot; ; min-height: 21px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;bit&amp;lt;2&amp;gt; packet_version;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;// Read-only Packet version.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot; ; min-height: 21px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;@padding bit&amp;lt;3&amp;gt; _pad2;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot; ; min-height: 21px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;PortId_t ingress_port;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;// Ingress physical port id.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot; ; min-height: 21px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;bit&amp;lt;48&amp;gt; ingress_mac_tstamp; &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;// Ingress IEEE 1588 timestamp (in nsec)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;// taken at the ingress MAC.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 19px ; line-height: normal ; font-family: &amp;quot;andale mono&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;fillColor=#fff2cc;labelBorderColor=none;fontColor=default;align=left;" vertex="1" parent="u8v8vd_6a1yAeCxValKr-1">
+          <mxGeometry x="-840" y="-1460" width="940" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
