@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T08:07:12.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-fZOrowtaquWbVLUs4Wa" version="16.5.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-02-08T08:15:37.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="41FfXxKb5L-3rZNcPscp" version="16.5.3" type="github" pages="9">
   <diagram id="__Tqg_PUiyjYCDxXRoGF" name="ingress_parse">
     <mxGraphModel dx="2066" dy="1487" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1571,10 +1571,28 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q4LQPaevHXj559MXTmxE" name="ingress_deparse">
-    <mxGraphModel dx="2066" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JaV01R1b45hdmFQPCCId-0" />
         <mxCell id="JaV01R1b45hdmFQPCCId-1" parent="JaV01R1b45hdmFQPCCId-0" />
+        <mxCell id="0DKYhMAN7EZFsDbvcSyF-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;" edge="1" parent="JaV01R1b45hdmFQPCCId-1" source="0DKYhMAN7EZFsDbvcSyF-0" target="0DKYhMAN7EZFsDbvcSyF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DKYhMAN7EZFsDbvcSyF-0" value="begin" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
+          <mxGeometry x="352" y="513" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0DKYhMAN7EZFsDbvcSyF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;" edge="1" parent="JaV01R1b45hdmFQPCCId-1" source="0DKYhMAN7EZFsDbvcSyF-1" target="0DKYhMAN7EZFsDbvcSyF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DKYhMAN7EZFsDbvcSyF-1" value="&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;IngressMirror&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
+          <mxGeometry x="552" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DKYhMAN7EZFsDbvcSyF-3" value="&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;span style=&quot;&quot;&gt;digest&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
+          <mxGeometry x="1012" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DKYhMAN7EZFsDbvcSyF-5" value="&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;span style=&quot;&quot;&gt;ig_intr_md_for_dprsr&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;digest_type&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;==&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;SWITCH_DIGEST_TYPE_MAC_LEARNING&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
+          <mxGeometry x="694" y="481" width="288" height="67" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
