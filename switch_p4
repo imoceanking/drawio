@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T08:15:37.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="41FfXxKb5L-3rZNcPscp" version="16.5.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-02-08T08:19:34.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="IGY8sIBeFeFOx0__gxxL" version="16.5.3" type="github" pages="9">
   <diagram id="__Tqg_PUiyjYCDxXRoGF" name="ingress_parse">
     <mxGraphModel dx="2066" dy="1487" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1587,11 +1587,33 @@
         <mxCell id="0DKYhMAN7EZFsDbvcSyF-1" value="&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;IngressMirror&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
           <mxGeometry x="552" y="523" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="SoVIUBjm-SU-zkomo0ZG-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;" edge="1" parent="JaV01R1b45hdmFQPCCId-1" source="0DKYhMAN7EZFsDbvcSyF-3" target="SoVIUBjm-SU-zkomo0ZG-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0DKYhMAN7EZFsDbvcSyF-3" value="&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;span style=&quot;&quot;&gt;digest&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
           <mxGeometry x="1012" y="523" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0DKYhMAN7EZFsDbvcSyF-5" value="&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;span style=&quot;&quot;&gt;ig_intr_md_for_dprsr&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;digest_type&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;==&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;SWITCH_DIGEST_TYPE_MAC_LEARNING&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
           <mxGeometry x="694" y="481" width="288" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="SoVIUBjm-SU-zkomo0ZG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;" edge="1" parent="JaV01R1b45hdmFQPCCId-1" source="SoVIUBjm-SU-zkomo0ZG-0" target="SoVIUBjm-SU-zkomo0ZG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SoVIUBjm-SU-zkomo0ZG-0" value="emit packet" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
+          <mxGeometry x="1212" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SoVIUBjm-SU-zkomo0ZG-2" value="end" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="JaV01R1b45hdmFQPCCId-1">
+          <mxGeometry x="1412" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SoVIUBjm-SU-zkomo0ZG-4" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="JaV01R1b45hdmFQPCCId-1" source="0DKYhMAN7EZFsDbvcSyF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="965" y="552" as="sourcePoint" />
+            <mxPoint x="1214" y="585" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="672" y="651" />
+              <mxPoint x="1214" y="651" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1620,7 +1642,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LsVglOwKoFuZcwjmn6eA" name="egress_parse">
-    <mxGraphModel dx="2066" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1087" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9pyLUtx-cC2yh2SQmMD5-0" />
         <mxCell id="9pyLUtx-cC2yh2SQmMD5-1" parent="9pyLUtx-cC2yh2SQmMD5-0" />
@@ -2043,7 +2065,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2SGBXTfhP6QFu6LEob_h" name="egress_deparse">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1087" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="owerkoVeghvlYpnN0OZW-0" />
         <mxCell id="owerkoVeghvlYpnN0OZW-1" parent="owerkoVeghvlYpnN0OZW-0" />
@@ -2051,7 +2073,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XVFXY6uzXCKK3WkfOyzx" name="struct_and_type">
-    <mxGraphModel dx="2600" dy="2849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="3425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u8v8vd_6a1yAeCxValKr-0" />
         <mxCell id="u8v8vd_6a1yAeCxValKr-1" value="intrinsic" parent="u8v8vd_6a1yAeCxValKr-0" />
