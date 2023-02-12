@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T04:21:19.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Yg9q9nMPcSUd9suOShd_" version="20.8.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-12T04:24:46.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Vio_qpKx4twuJQ13U-JP" version="20.8.17" type="github" pages="3">
   <diagram id="YkrAd5rtVJXaifrST15c" name="第 1 页">
     <mxGraphModel dx="954" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
         <mxCell id="wmab7NJsKO89__1W53vT-2" value="核心交换机" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="209" y="177" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wmab7NJsKO89__1W53vT-4" value="DNS64" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wmab7NJsKO89__1W53vT-4" value="DNS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="209" y="37" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wmab7NJsKO89__1W53vT-7" value="IPv6Router" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -281,6 +281,33 @@
         </mxCell>
         <mxCell id="wmab7NJsKO89__1W53vT-9" value="IPv6 Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="572" y="167" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wmab7NJsKO89__1W53vT-12" target="wmab7NJsKO89__1W53vT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-12" value="IPv6网络" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="589" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wmab7NJsKO89__1W53vT-15" target="wmab7NJsKO89__1W53vT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wmab7NJsKO89__1W53vT-15" target="wmab7NJsKO89__1W53vT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-15" value="核心交换机" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="599" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-16" value="DNS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="459" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-17" value="IPv6Router" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="409" y="599" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wmab7NJsKO89__1W53vT-19" target="wmab7NJsKO89__1W53vT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmab7NJsKO89__1W53vT-19" value="IPv6 Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="589" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
