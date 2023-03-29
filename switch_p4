@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T06:23:13.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QL3yRGCvGzUlLDssgcJp" version="20.8.20" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-03-29T07:29:53.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dwajpoqJggWqdUbcpFSu" version="21.1.1" type="github" pages="11">
   <diagram id="__Tqg_PUiyjYCDxXRoGF" name="ingress_parse">
-    <mxGraphModel dx="954" dy="891" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <object label="procedure" id="1">
@@ -4647,7 +4647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0HsmuNOH2MLePif00vU5" name="测试">
-    <mxGraphModel dx="2074" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2474" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4657,7 +4657,7 @@
         <mxCell id="KcOBlmC5RByDyFQWrLSR-3" value="sonic 10.65.115.121" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="251" y="895" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KcOBlmC5RByDyFQWrLSR-4" target="aL8UuVA2zeoIy-R9AatD-8">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="KcOBlmC5RByDyFQWrLSR-4" target="aL8UuVA2zeoIy-R9AatD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KcOBlmC5RByDyFQWrLSR-4" value="sonic 10.65.115.99" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -4840,29 +4840,62 @@
         <mxCell id="e1oweoNAyDoIfh32JpX2-3" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet3&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="274.5" y="953" width="83" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-3" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet24&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-3" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet24&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="281" y="848" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-4" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet32&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-4" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet32&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="461" y="759" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-6" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet24&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-6" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet24&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="262.5" y="764" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-7" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet32&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-7" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet32&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="553" y="871" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-8" value="华为交换机" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-8" value="华为交换机" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="729" y="895" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-10" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet124&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-10" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet124&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="615" y="900" width="97" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-12" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet32&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-12" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 8px; line-height: normal; font-family: &amp;quot;Andale Mono&amp;quot;; color: rgb(47, 255, 18); background-color: rgba(0, 0, 0, 0.9); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; font-size: 8px;&quot; class=&quot;s1&quot;&gt;Ethernet32&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="177.5" y="921" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aL8UuVA2zeoIy-R9AatD-13" value="8口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="aL8UuVA2zeoIy-R9AatD-13" value="8口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="722" y="913" width="37" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-1" value="2口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="147" y="900" width="37" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-2" value="华为交换机" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-307" y="742" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-285" y="673" as="sourcePoint" />
+            <mxPoint x="-285" y="742" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-4" value="server 10.65.115.120&lt;br&gt;dpu" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-307" y="613" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-6" value="eth0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-323" y="673" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-7" value="7口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="716" width="37" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-211" y="674" as="sourcePoint" />
+            <mxPoint x="-211" y="743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-9" value="eth1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-217" y="674" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eVl-ONoSwTFVYto2UIZZ-10" value="5口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="717" width="37" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
