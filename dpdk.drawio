@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T10:37:27.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uDAyBHfRU5JJm9bk6bAF" version="21.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-28T03:39:34.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="feDfJJsRBval0f47Y_cv" version="21.6.1" type="github" pages="3">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
     <mxGraphModel dx="1674" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,6 +243,368 @@
         </mxCell>
         <mxCell id="gy4ILCdyfCxJtfKzuv0B-36" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;offload&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="256" y="344" width="60" height="29" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CsMNqVnYuLwXUe-kmFQB" name="ovs_dpdk收包流程">
+    <mxGraphModel dx="2874" dy="1421" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-617" y="-155" width="614" height="486" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.998;entryY=0.399;entryDx=0;entryDy=0;exitX=0;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-8" target="GhkHNLRtQX3J0LI-9RCS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-11" value="kernel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="47" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-12" value="user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="-153" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-433" y="56" width="211" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-13" target="GhkHNLRtQX3J0LI-9RCS-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-199" y="167" as="sourcePoint" />
+            <mxPoint x="-149" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-13" target="GhkHNLRtQX3J0LI-9RCS-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-199" y="167" as="sourcePoint" />
+            <mxPoint x="-149" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-16" value="TCP/UDP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-361" y="58" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-17" value="IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-357.5" y="91" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-584" y="194" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=9;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-572" y="230" width="28" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-22" value="skb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-406" y="201" width="35" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-23" value="&lt;b&gt;物理网卡&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-591" y="322" width="61" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-334" y="201" width="120" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-25" value="&lt;b&gt;驱动&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-595" y="191" width="60" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.393;entryY=0.903;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-23" target="GhkHNLRtQX3J0LI-9RCS-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="420" as="sourcePoint" />
+            <mxPoint x="-520" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-27" value="1、网卡硬件收到包后，通过DMA将数据包填充到驱动预先分配好的接受队列里" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-679" y="276" width="147" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.567;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-23" target="GhkHNLRtQX3J0LI-9RCS-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-302" y="278.5" as="sourcePoint" />
+            <mxPoint x="-252" y="228.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-29" value="2、物理中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-537" y="299" width="86.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-30" value="3、内部触发软中断，退出物理中断流程，等待软中断调度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-510.5" y="266" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.536;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-20" target="GhkHNLRtQX3J0LI-9RCS-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-269" y="163" as="sourcePoint" />
+            <mxPoint x="-219" y="113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-31" value="4、软中断流程从接受队列取出数据包放到本地skb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="216" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-25" target="GhkHNLRtQX3J0LI-9RCS-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-35" value="&lt;b&gt;tun&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-191.5" y="292" width="74.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-36" value="5、驱动封装好数据包skb后，将数据包上送到dev链路层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-581" y="146" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-37" value="7、本地查表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-314.25" y="226" width="86.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-38" value="OVS datapath" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-332.5" y="201" width="97" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.077;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-40" target="GhkHNLRtQX3J0LI-9RCS-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-39" value="6、网卡挂载OVS的场景，dev会回调OVS的接收回调函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-398.25" y="148" width="164.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-40" value="DEV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-350.5" y="120" width="43" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-42" value="&lt;b&gt;vhost_net&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="217" width="67" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-43" value="&lt;b&gt;kvm&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="134" width="67" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-508" y="-124" width="179" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-45" value="OVS vswitchd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-460" y="-121" width="98" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-46" value="1、本地查表，生成缓存流表；&lt;br&gt;2、将新生成的缓存流表下发给内核datapath;&lt;br&gt;3、将触发upcall的数据包通知内核datapath重新转发" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-499" y="-70" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="-144" width="238" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=9;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-234" y="-27" width="28" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-4" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-2" target="GhkHNLRtQX3J0LI-9RCS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-227" y="112" as="sourcePoint" />
+            <mxPoint x="-177" y="62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-5" value="kernel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-247" y="-105" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-6" value="user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-251" y="-147" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-7" value="virtio_net" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-196" y="-37" width="60" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.211;exitY=-0.077;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-38" target="GhkHNLRtQX3J0LI-9RCS-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-48" value="8、查表失败，触发upcall到用户态ovs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="53" width="86.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.49;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.302;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-44" target="GhkHNLRtQX3J0LI-9RCS-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-50" value="9、缓存流表下发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-477.5" y="-9" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.793;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-44" target="GhkHNLRtQX3J0LI-9RCS-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-444" y="-1" as="sourcePoint" />
+            <mxPoint x="-275" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-52" value="10、upcall数据包重新执行转发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-387" y="7" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.786;entryY=0.968;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-42" target="GhkHNLRtQX3J0LI-9RCS-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.431;exitY=1.154;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-37" target="GhkHNLRtQX3J0LI-9RCS-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-55" value="11、根据查表结果，转发到tun模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-307" y="263" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-35" target="GhkHNLRtQX3J0LI-9RCS-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-57" value="12、tun唤醒vhost线程处理收包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="257" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-59" value="13、vhost线程将数据包放到虚拟网卡队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="100" width="122" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-42" target="GhkHNLRtQX3J0LI-9RCS-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-60" value="14、vhost线程通知注入虚拟中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-118" y="179" width="111" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-43" target="GhkHNLRtQX3J0LI-9RCS-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="167" as="sourcePoint" />
+            <mxPoint x="-184" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-63" value="15、注入虚拟中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="56" width="111" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-64" value="16、软中断，将数据从virtio队列取出，并上送协议栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-134" y="-55" width="111" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="-142" width="796" height="486" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-66" value="&lt;b&gt;物理网卡&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="331" width="61" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-67" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-65" target="GhkHNLRtQX3J0LI-9RCS-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="263" as="sourcePoint" />
+            <mxPoint x="225" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-68" value="kernel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="308" y="223" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-69" value="user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="308" y="-142" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="861" y="-138" width="238" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-71" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=9;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="872" y="-21" width="28" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-72" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-70" target="GhkHNLRtQX3J0LI-9RCS-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="879" y="118" as="sourcePoint" />
+            <mxPoint x="929" y="68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-73" value="kernel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="859" y="-99" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-74" value="user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="855" y="-141" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-75" value="virtio_net" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="910" y="-31" width="60" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-76" value="8、软中断，将数据从virtio队列取出，并上送协议栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="972" y="-49" width="111" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-77" value="&lt;b&gt;kvm&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976" y="258" width="67" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-77" target="GhkHNLRtQX3J0LI-9RCS-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-44" y="144" as="sourcePoint" />
+            <mxPoint x="-156" y="-6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-79" value="7、注入虚拟中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="924.5" y="93" width="111" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-80" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="-69" width="504" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-81" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=9;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="363.5" y="163" width="28" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.446;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-66" target="GhkHNLRtQX3J0LI-9RCS-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="263" as="sourcePoint" />
+            <mxPoint x="225" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-83" value="1、网卡硬件收到包后，通过DMA将数据包填充到dpdk预先分配好的接受队列里" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="321" y="278" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-84" value="&lt;b&gt;vhost_user&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="742" y="96" width="67" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-85" value="&lt;b&gt;eventfd&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="771" y="257" width="67" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-87" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="-16.5" width="216" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.696;exitY=-0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-81" target="GhkHNLRtQX3J0LI-9RCS-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="263" as="sourcePoint" />
+            <mxPoint x="225" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-89" value="2、pmd轮询，从队列中取包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="356" y="109" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-90" value="1、查表dpdk datapath表，查询成功则转发到相应port；&lt;br&gt;2、查表失败，触发upcall，根据openflow 表生成缓存流表并下发给dpdk datapath;&lt;br&gt;3、根据新生成的缓存流表，将报文转发到相应port" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462" y="10.5" width="185" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-86" value="OVS DPDK 转发流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="488" y="-13" width="132" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-91" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-87" target="GhkHNLRtQX3J0LI-9RCS-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="263" as="sourcePoint" />
+            <mxPoint x="225" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-92" value="3、数据包转到vhost_user口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="678" y="56" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-93" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.871;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-84" target="GhkHNLRtQX3J0LI-9RCS-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="263" as="sourcePoint" />
+            <mxPoint x="225" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-94" value="4、pmd将数据包拷贝到virtio队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="799" y="43" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-84" target="GhkHNLRtQX3J0LI-9RCS-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="263" as="sourcePoint" />
+            <mxPoint x="225" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-96" value="5、系统调用，触发eventfd write事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="727" y="163" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhkHNLRtQX3J0LI-9RCS-85" target="GhkHNLRtQX3J0LI-9RCS-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="847" y="454" as="sourcePoint" />
+            <mxPoint x="914" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhkHNLRtQX3J0LI-9RCS-98" value="6、通知kvm注入中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="842" y="243" width="121" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
