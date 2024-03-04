@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T01:48:35.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZEGR_LiATNwEwUiou0_Y" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-04T02:40:14.258Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="10d0N-AHKm90r8T6bYvF" version="22.1.18" type="github" pages="6">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
     <mxGraphModel dx="1674" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -891,6 +891,9 @@
         </mxCell>
         <mxCell id="aGpvqUsUzhCLm4w3356C-1" value="针对tunnel报文&lt;br&gt;ingress jump 到 group1&lt;br&gt;transfer jump 到 group1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-798" y="-24" width="144" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vfu7Y6hhCmMWQu21-qB-1" value="计数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="81" y="-26" width="42" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
