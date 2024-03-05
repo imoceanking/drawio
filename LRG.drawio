@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T03:04:11.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="xTu35Y0r-xZk-BU3uHQv" version="22.1.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-05T09:53:06.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HguAGJgZ3AxSDSWBmrgF" version="22.1.18" type="github" pages="3">
   <diagram id="YkrAd5rtVJXaifrST15c" name="LRG">
     <mxGraphModel dx="2074" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,6 +148,21 @@
         </mxCell>
         <mxCell id="SZW7YwkHF-WO_J5Xm0PH-58" value="on_hit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="730" y="555" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B-z5cFuPF17m2aiMed3u-1" value="192.168.2.0/24&lt;br&gt;有个ip：192.168.2.10&lt;br&gt;且没有192.168.2.2 ip" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="187" y="1048" width="135" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="B-z5cFuPF17m2aiMed3u-2" value="vpc1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="227" y="984" width="43" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B-z5cFuPF17m2aiMed3u-3" value="192.168.2.0/30&lt;br&gt;有个ip：192.168.2.2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1048" width="135" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="B-z5cFuPF17m2aiMed3u-4" value="vpc2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="984" width="43" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B-z5cFuPF17m2aiMed3u-5" value="不知道理解是否正确啊！如上两个加入UGN的vpc，本来192.168.2.10和192.168.2.2能互通，VPC_ROUTER前置后会导致不通。&lt;br&gt;192.168.2.10出来的报文会查找到本vpc路由，并转发给LPG，LPG查找不到本vpc内192.168.2.2明细路由" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="87" y="1197" width="699" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
