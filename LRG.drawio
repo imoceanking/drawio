@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T05:34:31.788Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="kUC3gh6CjhyAtWCjgzGI" version="22.1.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-09T06:34:48.375Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Lo3drIhbS8wVjO1HKbG3" version="22.1.18" type="github" pages="4">
   <diagram id="YkrAd5rtVJXaifrST15c" name="LRG">
     <mxGraphModel dx="2474" dy="2270" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1242,10 +1242,108 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yOovsSWxAbKKOtonuM9o" name="第 4 页">
-    <mxGraphModel dx="2074" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="670" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-1" target="ORYdWTDS7wRCaKa9umX0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-1" value="基本信息采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-12" target="ORYdWTDS7wRCaKa9umX0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="838" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-2" target="ORYdWTDS7wRCaKa9umX0-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="771" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-2" value="成人ADHD预评估模型系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="332" y="656" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-4" target="ORYdWTDS7wRCaKa9umX0-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-4" value="成人ADHD访谈评估系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="331" y="882" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-6" value="预评估系统评价系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-6" target="ORYdWTDS7wRCaKa9umX0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="970" as="sourcePoint" />
+            <mxPoint x="553" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="606" y="1360" />
+              <mxPoint x="606" y="686" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-9" value="奖励反馈，预评估模型强化学习" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="541" y="1020" width="186" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-12" value="预评估得分超过阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="757" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-13" target="ORYdWTDS7wRCaKa9umX0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-13" value="访谈评估得分超过阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="991" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-15" target="ORYdWTDS7wRCaKa9umX0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-15" value="生活质量评估系统" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="1121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-12" target="ORYdWTDS7wRCaKa9umX0-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="877" as="sourcePoint" />
+            <mxPoint x="437" y="827" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="251" y="797" />
+              <mxPoint x="251" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="833" width="38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="294" y="768" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ORYdWTDS7wRCaKa9umX0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="1031" as="sourcePoint" />
+            <mxPoint x="304" y="1026" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="301" y="1001" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-23" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="409" y="1068" width="38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-24" target="ORYdWTDS7wRCaKa9umX0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-24" value="出评估报告" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-27" target="ORYdWTDS7wRCaKa9umX0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-27" value="患者回访" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="164" y="1330" width="98" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
