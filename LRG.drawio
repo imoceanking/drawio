@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T02:56:01.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9J7DRKy_iyENE4TvGZ0Z" version="22.1.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-11T03:06:34.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Qm-hSM8uJjSEJQELT9ft" version="22.1.18" type="github" pages="4">
   <diagram id="YkrAd5rtVJXaifrST15c" name="LRG">
     <mxGraphModel dx="2474" dy="2270" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1422,6 +1422,9 @@
         <mxCell id="ORYdWTDS7wRCaKa9umX0-48" value="预评估冲动/多动评分超过阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1368" y="1734" width="234" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-49" target="ORYdWTDS7wRCaKa9umX0-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ORYdWTDS7wRCaKa9umX0-49" value="注意力缺陷访谈评估" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1168" y="1904" width="140" height="60" as="geometry" />
         </mxCell>
@@ -1460,6 +1463,43 @@
         </mxCell>
         <mxCell id="ORYdWTDS7wRCaKa9umX0-63" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1602" y="1749" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-64" target="ORYdWTDS7wRCaKa9umX0-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-64" target="ORYdWTDS7wRCaKa9umX0-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-64" value="一项访谈评估得分超过阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="2065" width="182" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-55" target="ORYdWTDS7wRCaKa9umX0-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="1822" as="sourcePoint" />
+            <mxPoint x="1050" y="1772" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1485" y="2015" />
+              <mxPoint x="1376" y="2015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORYdWTDS7wRCaKa9umX0-68" target="ORYdWTDS7wRCaKa9umX0-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-68" value="生活质量评估系统" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="2201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-70" value="出评估报告" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="2307" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-72" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1379" y="2141" width="38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-73" value="出评估报告" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="2075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORYdWTDS7wRCaKa9umX0-75" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1247" y="2079" width="33" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
