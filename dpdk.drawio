@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T03:43:55.192Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="y14KTWbe9XPiDD-bI8Td" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-14T02:09:40.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="IlNizL5NKjZSFkQWB1Gs" version="22.1.18" type="github" pages="6">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
     <mxGraphModel dx="1674" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -790,7 +790,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XzoyxaJQL4cW-kRbMW7U" name="OVS DPDK 卡上的数据面">
-    <mxGraphModel dx="3274" dy="1470" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3274" dy="1889" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -896,7 +896,10 @@
           <mxGeometry x="81" y="-26" width="42" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Vfu7Y6hhCmMWQu21-qB-38" value="卸载优先级：&lt;br&gt;0：用于插入mirror&lt;br&gt;1：用于正常表项；&lt;br&gt;2：用于miss表项" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-703" y="299" width="121" height="70" as="geometry" />
+          <mxGeometry x="-733" y="-728" width="121" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vfu7Y6hhCmMWQu21-qB-39" value="重组分片都需要cpu做:&lt;br&gt;网卡不支持分片、重组&lt;br&gt;最大问题还没有找到超出mtu报文上送cpu的办法，ip total_len RTE_FLOW匹配mlnx网卡不支持" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-733" y="-636" width="521" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
