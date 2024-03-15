@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T03:06:58.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hVyaP8uqQ-rf0nNqgDeg" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-15T03:08:23.501Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lYmFs6c0B9dBmxVthfPz" version="22.1.18" type="github" pages="7">
   <diagram id="diN6GPuv4IIW8KrhgeHe" name="cgw">
     <mxGraphModel dx="2074" dy="1089" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1072,7 +1072,7 @@
             <mxPoint x="200" y="422" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z90tEGONLdEePo8HaDj1-26" value="Others" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Z90tEGONLdEePo8HaDj1-26" value="接入网关" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-396" y="621" width="61" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Z90tEGONLdEePo8HaDj1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF0000;fontSize=14;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z90tEGONLdEePo8HaDj1-28" target="Z90tEGONLdEePo8HaDj1-50">
