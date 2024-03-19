@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T02:10:18.231Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="T5UlU9oob0npFOG2WeTc" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-19T08:34:34.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AUra2YBDHwVcqZupy01d" version="24.0.6" type="github" pages="6">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
     <mxGraphModel dx="1674" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FW_1vDyBbIt9U0mCUnhf" name="gw offload">
-    <mxGraphModel dx="2874" dy="1489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2874" dy="1872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,29 +244,32 @@
         <mxCell id="gy4ILCdyfCxJtfKzuv0B-36" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;offload&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="209" y="555" width="60" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-1" value="NAT表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-1" value="NAT表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="67" y="-242" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-2" value="CT表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-2" value="CT表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="63" y="-362" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-3" value="路由表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-3" value="路由表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-204" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-4" value="邻居表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-4" value="邻居表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="306" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-5" value="mirror表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-5" value="mirror表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-446" y="-296" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-6" value="meter表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-6" value="meter表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-381" y="-127" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-7" value="count表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-7" value="count表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="557" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4umhRD_8Prh5kTWCoY5S-8" value="隔离模式表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4umhRD_8Prh5kTWCoY5S-8" value="隔离模式表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-667" y="-298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDPaYiuNJntOzqenuXqD-1" value="mirror在CX5上做不了&lt;div&gt;分片重组功能做不了&lt;/div&gt;&lt;div&gt;group表做不了&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="-655" width="133" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
