@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T10:56:49.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="8FLE-HdyxTZT_YV0lMiP" version="24.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-19T10:57:47.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6RoOjdcnfsMQzfFl8Kpz" version="24.0.8" type="github" pages="7">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
     <mxGraphModel dx="1674" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FW_1vDyBbIt9U0mCUnhf" name="gw offload">
-    <mxGraphModel dx="3274" dy="1870" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
