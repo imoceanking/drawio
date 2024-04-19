@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T08:16:18.172Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XsMbJMBVSOvqdg-q8EHf" version="24.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-04-19T10:56:49.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="8FLE-HdyxTZT_YV0lMiP" version="24.0.8" type="github" pages="7">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
     <mxGraphModel dx="1674" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -257,13 +257,13 @@
           <mxGeometry x="661" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-5" value="mirror表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-446" y="-296" width="120" height="60" as="geometry" />
+          <mxGeometry x="-891" y="-126" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-6" value="meter表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-633" y="-296" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-7" value="count表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="154" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="-440" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-8" value="隔离模式表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-968" y="-298" width="120" height="60" as="geometry" />
@@ -1247,6 +1247,38 @@
         </mxCell>
         <mxCell id="Gvmi4cfiURc3acoG_xYf-16" value="&lt;font color=&quot;#ff0000&quot;&gt;tcpdump抓包&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-224" y="561" width="88" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8yfgRaCjIPtmwzdFNI-Q" name="第 7 页">
+    <mxGraphModel dx="3274" dy="1470" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3n6EYP8G5P_iW9Q24MeI-1" value="内层路由表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-263" y="-294" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3n6EYP8G5P_iW9Q24MeI-2" value="meter表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-633" y="-296" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3n6EYP8G5P_iW9Q24MeI-3" value="count表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-294" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3n6EYP8G5P_iW9Q24MeI-4" value="隔离模式表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-968" y="-298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3n6EYP8G5P_iW9Q24MeI-5" value="解封装表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3n6EYP8G5P_iW9Q24MeI-6" value="UGNid + tunnel_id + dst ip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-273" y="-362" width="159" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3n6EYP8G5P_iW9Q24MeI-7" value="encap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-242" y="-334" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ute4C9MsiHGKaqCcgJOf-1" value="group表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-92" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
