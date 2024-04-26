@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T05:06:54.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="tazXD9NkptvsgQSFwEcD" version="24.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-26T05:43:08.564Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="eEMNwH_jrijNfHoL8ZJy" version="24.0.8" type="github" pages="7">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
     <mxGraphModel dx="554" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FW_1vDyBbIt9U0mCUnhf" name="gw offload">
-    <mxGraphModel dx="2154" dy="1330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2606" dy="1364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,43 +245,43 @@
           <mxGeometry x="209" y="555" width="60" height="29" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-1" value="NAT表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-174" y="-153" width="120" height="60" as="geometry" />
+          <mxGeometry x="-221" y="-179" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-2" value="CT表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-185" y="-393" width="120" height="60" as="geometry" />
+          <mxGeometry x="-227" y="-393" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-3" value="内层路由表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-181" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="-223" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-4" value="邻居表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="381" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="262" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-5" value="mirror表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-878" y="-197" width="120" height="60" as="geometry" />
+          <mxGeometry x="-834" y="-298" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-6" value="meter表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-633" y="-296" width="120" height="60" as="geometry" />
+          <mxGeometry x="-534" y="-296" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-7" value="count表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="-381" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-8" value="隔离模式表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-968" y="-298" width="120" height="60" as="geometry" />
+          <mxGeometry x="-979" y="-298" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-1" value="&lt;div&gt;&lt;b&gt;全卸载的瓶颈点：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;跨网卡做不了&lt;/div&gt;mirror在CX5上做不了&lt;div&gt;分片重组功能做不了&lt;/div&gt;&lt;div&gt;group表做不了&lt;/div&gt;&lt;div&gt;traceroute做不了&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-580" y="-683" width="133" height="113" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-2" value="解封装表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="-298" width="120" height="60" as="geometry" />
+          <mxGeometry x="-685" y="-298" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-3" value="封装表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="54" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="-65" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-4" value="外层路由表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="223" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="104" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-5" value="group表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="539" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aoNpCmdRclseSP4OTRjB-1" value="PMD线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-835" y="155" width="94" height="50" as="geometry" />
