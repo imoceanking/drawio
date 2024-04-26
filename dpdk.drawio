@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T10:57:47.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6RoOjdcnfsMQzfFl8Kpz" version="24.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-26T05:01:53.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GZUuh2lM6zU9agXkho8d" version="24.0.8" type="github" pages="7">
   <diagram name="报文流向" id="vCY1DlSuIEUwMERqjHk8">
-    <mxGraphModel dx="1674" dy="1070" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="554" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FW_1vDyBbIt9U0mCUnhf" name="gw offload">
-    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="1330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,16 +245,16 @@
           <mxGeometry x="209" y="555" width="60" height="29" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-1" value="NAT表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-46" y="-238" width="120" height="60" as="geometry" />
+          <mxGeometry x="-174" y="-153" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-2" value="CT表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="-358" width="120" height="60" as="geometry" />
+          <mxGeometry x="-185" y="-393" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-3" value="内层路由表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-263" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="-181" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-4" value="邻居表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="661" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="372" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4umhRD_8Prh5kTWCoY5S-5" value="mirror表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-891" y="-126" width="120" height="60" as="geometry" />
@@ -275,13 +275,13 @@
           <mxGeometry x="-800" y="-298" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-3" value="封装表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="334" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="45" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-4" value="外层路由表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="503" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="214" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jDPaYiuNJntOzqenuXqD-5" value="group表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="819" y="-294" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="-294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aoNpCmdRclseSP4OTRjB-1" value="PMD线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-835" y="155" width="94" height="50" as="geometry" />
@@ -1252,7 +1252,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8yfgRaCjIPtmwzdFNI-Q" name="第 7 页">
-    <mxGraphModel dx="3274" dy="1470" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
